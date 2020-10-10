@@ -1,0 +1,17 @@
+.jumbotron{
+    margin-bottom: 5%;
+    background-color: rgb(115, 173, 173);
+}
+.order{
+    width:30%;
+	height:50%;
+	margin:0 auto;
+	padding:0px;
+	margin-top:30px;
+	background: rgb(219, 216, 216);
+	border-radius:5px;
+	clear:both;
+	overflow:hidden;
+    padding:10px;
+    float: inherit;
+}
