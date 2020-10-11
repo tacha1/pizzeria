@@ -1,20 +1,38 @@
+
+.container{
+	display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 .order{
-    width:30%;
-	height:50%;
-	margin:0 auto;
+    width:70%;
+	height:100%;
+	margin-right:10%;
+	margin-left: 30%;
 	padding:0px;
 	margin-top:30px;
-	background: rgb(219, 216, 216);
-	border-radius:5px;
+border-bottom-left-radius: 5px;
+	border-color: rgb(31, 30, 30);
+	border-radius: 5px;
 	clear:both;
 	overflow:hidden;
-    padding:10px;
+	padding:10px;
+	position: relative;
+    text-align: center;
+}
+p{
+	margin-left: 50%;
+	margin-right: 50%;
+	margin-top: 10px;
+	margin-bottom: 10%;
+	overflow: hidden;	
+	background-color: transparent;
 }
 #select{
 	background-color: transparent;
 	height: 30px;
 	width: 50%;
 	border-radius: 0px;
+	overflow: hidden;
 }
 #select2{
 	background-color: transparent;
@@ -29,4 +47,25 @@
 	width: 50%;
 	border-radius: 0px;
     margin-left: 3%;
+}
+.btn{
+	margin-left: 5%;
+}
+.send{
+	color: black;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	margin-left: 50%;
+	margin-right: 50%;
+	margin-top: 20px;
+}
+.card-body{
+	margin-right: -30%;
+	margin-left: -5%;
+	margin-top: 5%;
+}
+.card-title{
+	text-align: left;
+	margin-top: 5%;
 }
