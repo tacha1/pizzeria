@@ -37,7 +37,8 @@ It is designed by using HTML, CSS, Javascript, Bootstrap , jQuery and java const
 
 ## Support and contact details
 
-For any issues or questions, ideas or concern, please contact me on 0788851018 or e-mail me on :uwarosine10@gmail.com
+For any issues or questions, ideas or concern, please contact me on 0788851018 or 
+e-mail me on :uwarosine10@gmail.com
 Check me out: 
 
 ### License
