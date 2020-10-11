@@ -1,20 +1,10 @@
 function validate() {
-    var chks = document.getElementsByName('chk[]');
-    var hasChecked = false;
-    for (var i = 0; i < chks.length; i++) {
-        if (chks[i].checked) {
-            hasChecked = true;
-            break;
-        }
-    }
-    if (hasChecked == false) {
-        alert("Select any item");
-        return false;
-    }
-    var a, b, c;
-    a = Number(document.getElementById('sec').value);
-    b = Number(document.getElementById('select').value);
-    c = a + b;
+    
+    var a, b, c ,d;
+    a = Number(document.getElementById('select2').value);
+    b = Number(document.getElementById('select3').value);
+    d = Number(document.getElementById('inputnumber').value);
+    c = (a + b )* d;
     document.getElementById('res').value = c + 'Rwf';
 }
 $(document).ready(function () {

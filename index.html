@@ -23,14 +23,14 @@
 </head>
 
 <body>
-    <div class="jumbotron">
+    <div class="title">
         <h1 style="text-align: center;">
-            <font-weight="bold">PIZZERIA</font-weight>
+            <font-weight="bold"><i>PIZZERIA</i></font-weight>
         </h1>
     </div>
     <div class="container">
         <div class="card-body text-center">
-            <h1 class="card-title">ENJOY OUR SPECIAL TASTE</h1><br><br>
+            <h3 class="card-title">ENJOY OUR SPECIAL TASTE</h3><br><br>
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-12 item">
                     <img src="new1.jpeg" class="img-fluid photo1">
@@ -64,19 +64,19 @@
                 </div>
             </div>
         </div>
-        <div class="order">
+        <div class="order text-white">
             <P>
-            <h1> ORDER HERE </h1>
+            <h3> ORDER HERE </h3>
             </P>
             <div class="form">
                 <label>choose your pizza type</label>
                 <select class="select" id="select">
                     <option selected disabled>Select the name</option>
-                    <option value="">chicken</option>
-                    <option value="">margalita</option>
-                    <option value="">pepeloni</option>
-                    <option value="">hawaian</option>
-                    <option value="">four season</option>
+                    <option value="chk[]">chicken</option>
+                    <option value="margalita">margalita</option>
+                    <option value="pepeloni">pepeloni</option>
+                    <option value="hawaian">hawaian</option>
+                    <option value="fourseason">four season</option>
                 </select>
             </div>
             <div class="form2">
@@ -100,9 +100,13 @@
                 </select>
                 <br>
                 <br>
-                <input type="submit" name="submit" value="GET THE BILL" class="btn" onClick="return validate();">
-                <input type="text" name="" value="" id="res">
-
+                <div class="form-group col-md-6">
+                    <input type="quantity" class="form-control" id="inputnumber" placeholder="Quantity" required>
+                </div>
+                <div id="bill">
+                    <input type="submit" name="submit" value="GET THE BILL" class="btn" onClick="return validate();">
+                    <input type="text" name="" value="" id="res">
+                </div>
             </div>
             <div class="button">
                 <button class="send pull-center text-black" type="submit" id="send"><strong> ORDER </strong></button>

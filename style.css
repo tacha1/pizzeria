@@ -1,4 +1,12 @@
-
+body{
+	background-image: url("bgr.jpeg");
+}
+.title{
+	margin-top:3%;
+	color: whitesmoke;
+	border: 10px;
+	border-color: whitesmoke;
+}
 .container{
 	display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -9,7 +17,6 @@
 	margin-right:10%;
 	margin-left: 30%;
 	padding:0px;
-	border: 10px;
 	margin-top:30px;
 	border-color: rgb(31, 30, 30);
 	border-radius: 5px;
@@ -17,7 +24,8 @@
 	overflow:hidden;
 	padding:10px;
 	position: relative;
-    text-align: center;
+	text-align: center;
+	color:whitesmoke;
 }
 p{
 	margin-left: 50%;
@@ -33,6 +41,7 @@ p{
 	width: 50%;
 	border-radius: 0px;
 	overflow: hidden;
+	color: whitesmoke;
 }
 #select2{
 	background-color: transparent;
@@ -40,18 +49,21 @@ p{
 	width: 50%;
 	border-radius: 0px;
 	margin-left: 14%;
+	color: whitesmoke;
 }
 #select3{
 	background-color: transparent;
 	height: 30px;
 	width: 50%;
 	border-radius: 0px;
-    margin-left: 3%;
+	margin-left: 3%;
+	color: whitesmoke;
 }
 .btn{
 	margin-left: 5%;
 	font-style: inherit;
 	font-weight: bold;
+	color: whitesmoke;
 }
 .send{
 	color: black;
@@ -66,7 +78,22 @@ p{
 	margin-right: -30%;
 	margin-left: -5%;
 	margin-top: 5%;
+	width: 170%;
+	color: whitesmoke;
 }
 .card-title{
 	text-align: left;
+}
+#inputnumber{
+	background-color: transparent;
+	height: 10%;
+	width: 230%;
+	border-radius: 0px;
+	margin-left:-5%;
+	margin-top: -15%;
+	color: whitesmoke;
+}
+#bill{
+	color: whitesmoke;
+	
 }
