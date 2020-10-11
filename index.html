@@ -24,9 +24,18 @@
 
 <body>
     <div class="title">
-        <h1 style="text-align: center;">
-            <font-weight="bold"><i>PIZZERIA</i></font-weight>
-        </h1>
+        <div class="homepage">
+            <div class="topnav">
+                <div class="pizza">
+                    <a href="#home">La Pizzeria</a>
+                </div>
+                <div class="mynav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="container">
         <div class="card-body text-center">
@@ -104,7 +113,8 @@
                     <input type="quantity" class="form-control" id="inputnumber" placeholder="Quantity" required>
                 </div>
                 <div id="bill">
-                    <input type="submit" class="submitt" name="submit" value="GET THE BILL" class="btn" onClick="return validate();">
+                    <input type="submit" class="submitt" name="submit" value="GET THE BILL" class="btn"
+                        onClick="return validate();">
                     <input type="text" name="" value="" id="res">
                 </div>
             </div>
@@ -112,6 +122,34 @@
                 <button class="send pull-center text-black" type="submit" id="send"><strong> ORDER </strong></button>
             </div>
 
+        </div>
+    </div>
+
+    <div class="mynavv">
+        <div id="about">
+            <h1 style="text-align: center;"><u>About us</u></h1>
+            <div class="paragraph">
+                <h5>Pizza is a savory dish of Italian origin consisting of a usually round, <br>flattened base of
+                    leavened
+                    wheat-based dough topped with tomatoes, cheese, <br>and often various other ingredients which is
+                    then
+                    baked at a high temperature, <br>traditionally in a wood-fired oven. A small pizza is sometimes
+                    called a
+                    pizzetta.<br>
+                    We provide courses for those who want to learn how to make pizza<br>
+                </h5>
+            </div>
+        </div>
+        <div id="contact">
+            <h1 style="text-align: center;"><u>Contact us</u></h1>
+            <h5>Find us on the following address:<br>
+                Kigali-Nyarugenge-Nyamirambo KN 165st<br>
+                For more information you can reach out to us on these <span
+                    style="font-weight: bold;">Address</span>:<br><br>
+                Telephone Number:0783025628<br>
+                Email Address:uwarosine10@gmail.com<br>
+            </h5>
+            </p>
         </div>
     </div>
 </body>
