@@ -1,5 +1,6 @@
 body{
 	background-image: url("bac.jpg");
+	background-color: white;
 }
 .title{
 	margin-top:auto;
@@ -13,6 +14,12 @@ body{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 	color:white;
+}
+.submitt{
+	color:black;
+	background-color: transparent;
+	font-weight: bold;
+	width: 40%;
 }
 .order{
     width:70%;
@@ -28,7 +35,7 @@ body{
 	padding:10px;
 	position: relative;
 	text-align: center;
-	color:white;
+	color:black;
 }
 p{
 	margin-left: 50%;
@@ -44,7 +51,7 @@ p{
 	width: 50%;
 	border-radius: 0px;
 	overflow: hidden;
-	color:white;
+	color:rgb(27, 26, 26);
 }
 #select2{
 	background-color: transparent;
@@ -52,7 +59,7 @@ p{
 	width: 50%;
 	border-radius: 0px;
 	margin-left: 14%;
-	color:white;
+	color:rgb(27, 26, 26);
 }
 #select3{
 	background-color: transparent;
@@ -60,7 +67,7 @@ p{
 	width: 50%;
 	border-radius: 0px;
 	margin-left: 3%;
-	color:white;
+	color:rgb(27, 26, 26);
 }
 .btn{
 	margin-left: 5%;
@@ -69,7 +76,7 @@ p{
 	color:white;
 }
 .send{
-	color: white
+	color:black;
 	display: flex;
     justify-content: center;
 	align-items: center;
@@ -82,7 +89,7 @@ p{
 	margin-left: -5%;
 	margin-top: 5%;
 	width: 170%;
-	color:white;
+	color:black;
 }
 .card-title{
 	text-align: left;
@@ -94,9 +101,5 @@ p{
 	border-radius: 0px;
 	margin-left:-5%;
 	margin-top: -15%;
-	color:white;
-}
-#bill{
-	color:white;
-	
+	color:rgb(14, 13, 13);
 }
