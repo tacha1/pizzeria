@@ -3,15 +3,16 @@ body{
 }
 .title{
 	margin-top:auto;
-	color: whitesmoke;
+	color: white;
 	border:10px;
 	border-width:10px;
 	background-color: rgb(26, 24, 24);
-	border-color: whitesmoke;
+	border-color: white;
 }
 .container{
 	display: grid;
-    grid-template-columns: repeat(2,1fr);
+	grid-template-columns: repeat(2,1fr);
+	color:white;
 }
 .order{
     width:70%;
@@ -27,7 +28,7 @@ body{
 	padding:10px;
 	position: relative;
 	text-align: center;
-	color:black;
+	color:white;
 }
 p{
 	margin-left: 50%;
@@ -43,7 +44,7 @@ p{
 	width: 50%;
 	border-radius: 0px;
 	overflow: hidden;
-	color:black;
+	color:white;
 }
 #select2{
 	background-color: transparent;
@@ -51,7 +52,7 @@ p{
 	width: 50%;
 	border-radius: 0px;
 	margin-left: 14%;
-	color:black;
+	color:white;
 }
 #select3{
 	background-color: transparent;
@@ -59,16 +60,16 @@ p{
 	width: 50%;
 	border-radius: 0px;
 	margin-left: 3%;
-	color:black;
+	color:white;
 }
 .btn{
 	margin-left: 5%;
 	font-style: inherit;
 	font-weight: bold;
-	color:black;
+	color:white;
 }
 .send{
-	color: black;
+	color: white
 	display: flex;
     justify-content: center;
 	align-items: center;
@@ -81,7 +82,7 @@ p{
 	margin-left: -5%;
 	margin-top: 5%;
 	width: 170%;
-	color:black;
+	color:white;
 }
 .card-title{
 	text-align: left;
@@ -93,9 +94,9 @@ p{
 	border-radius: 0px;
 	margin-left:-5%;
 	margin-top: -15%;
-	color:black;
+	color:white;
 }
 #bill{
-	color: black;
+	color:white;
 	
 }
