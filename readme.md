@@ -34,3 +34,16 @@ Users receive amount to be paid
 ## Technologies Used
 
 It is designed by using HTML, CSS, Javascript, Bootstrap , jQuery and java constructor
+
+## Support and contact details
+
+For any issues or questions, ideas or concern, please contact me on 0788851018 or e-mail me on :uwarosine10@gmail.com
+Check me out: 
+
+### License
+
+MIT license
+
+Copyright (c) 2020 Moringa School
+
+Created with all the love in the world, enjoy it is free of charge.
