@@ -26,3 +26,11 @@ User will choose the name,size and toppings of the pizza by their choice and the
 ### Input
 
 pizza name,size and toppings
+
+### Output
+
+Users receive amount to be paid
+
+## Technologies Used
+
+It is designed by using HTML, CSS, Javascript, Bootstrap and jQuery.
