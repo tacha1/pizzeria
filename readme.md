@@ -33,4 +33,4 @@ Users receive amount to be paid
 
 ## Technologies Used
 
-It is designed by using HTML, CSS, Javascript, Bootstrap and jQuery.
+It is designed by using HTML, CSS, Javascript, Bootstrap , jQuery and java constructor
