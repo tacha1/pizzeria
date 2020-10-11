@@ -2,9 +2,11 @@ body{
 	background-image: url("bgr.jpeg");
 }
 .title{
-	margin-top:3%;
+	margin-top:auto;
 	color: whitesmoke;
-	border: 10px;
+	border:10px;
+	border-width:10px;
+	background-color: rgb(26, 24, 24);
 	border-color: whitesmoke;
 }
 .container{
