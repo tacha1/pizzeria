@@ -1,5 +1,5 @@
 body{
-	background-image: url("bgr.jpeg");
+	background-image: url("bac.jpg");
 }
 .title{
 	margin-top:auto;
@@ -27,7 +27,7 @@ body{
 	padding:10px;
 	position: relative;
 	text-align: center;
-	color:whitesmoke;
+	color:black;
 }
 p{
 	margin-left: 50%;
@@ -43,7 +43,7 @@ p{
 	width: 50%;
 	border-radius: 0px;
 	overflow: hidden;
-	color: whitesmoke;
+	color:black;
 }
 #select2{
 	background-color: transparent;
@@ -51,7 +51,7 @@ p{
 	width: 50%;
 	border-radius: 0px;
 	margin-left: 14%;
-	color: whitesmoke;
+	color:black;
 }
 #select3{
 	background-color: transparent;
@@ -59,13 +59,13 @@ p{
 	width: 50%;
 	border-radius: 0px;
 	margin-left: 3%;
-	color: whitesmoke;
+	color:black;
 }
 .btn{
 	margin-left: 5%;
 	font-style: inherit;
 	font-weight: bold;
-	color: whitesmoke;
+	color:black;
 }
 .send{
 	color: black;
@@ -81,7 +81,7 @@ p{
 	margin-left: -5%;
 	margin-top: 5%;
 	width: 170%;
-	color: whitesmoke;
+	color:black;
 }
 .card-title{
 	text-align: left;
@@ -93,9 +93,9 @@ p{
 	border-radius: 0px;
 	margin-left:-5%;
 	margin-top: -15%;
-	color: whitesmoke;
+	color:black;
 }
 #bill{
-	color: whitesmoke;
+	color: black;
 	
 }
