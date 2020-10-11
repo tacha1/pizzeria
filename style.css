@@ -13,7 +13,7 @@ body{
 }
 .pizza {
     margin-left: 10%;
-    margin-top: 1%;
+    margin-top: -1%;
     text-transform: uppercase;
 }
 
@@ -55,9 +55,9 @@ body{
     width:70%;
 	height:100%;
 	margin-right:10%;
-	margin-left: 30%;
+	margin-left: 40%;
 	padding:0px;
-	margin-top:30px;
+	margin-top:30%;
 	border-color: rgb(31, 30, 30);
 	border-radius: 5px;
 	clear:both;
@@ -74,6 +74,15 @@ p{
 	margin-bottom: 10%;
 	overflow: hidden;	
 	background-color: transparent;
+}
+footer{
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	background-color: rgb(27, 26, 26);
+	border:10px;
+	border-width:10px;
+	color: black;
 }
 #select{
 	background-color: transparent;
@@ -122,7 +131,8 @@ p{
 	color:black;
 }
 .card-title{
-	text-align: left;
+	text-align:center;
+	margin-right: 15%;
 }
 #inputnumber{
 	background-color: transparent;
@@ -134,7 +144,12 @@ p{
 	color:rgb(14, 13, 13);
 }
 .mynavv{
-	background-color: rgb(26, 24, 24);
+	background-color:transparent;
+	color: black;
+}
+#about{
+text-align: justify;
+margin-bottom: 5%;
 }
 .paragraph{
 	color: black;
@@ -142,8 +157,9 @@ p{
 	text-align: center;
 }
 #contact{
+text-align: left;
+margin-left: 5%;
 text-align: center;
-margin-left: 10%;
 }
 @media only screen and (max-width: 375px) {
     body {
